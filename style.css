@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin-right: 0;
+}
+
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.comon-btn{
+    padding: 11px 20px;
+    border-radius: 4px;
+    background-color: #E55473;
+    font-size: 11px;
+    font-weight: 400;
+    border: none;
+    color: #fff;
+
+}
+
+/* banner css start */
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    margin: 0px;
+    
+}
+.banner-body {
+    display: flex;
+    height: 450px;
+    align-items: center !important ;
+    justify-content: space-between;
+}
+.baner-right{
+    margin-bottom: 20px;
+}
+.baner-right h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+}
+.baner-right p{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.baner-left img{
+    width: 300px;
+    height: auto;
+    margin-bottom: -78px;
+}
