@@ -162,3 +162,17 @@ body{
     color: #E55473;
 }
 /* offer section css end */
+
+/* instragram section css */
+.instragram_section{
+    margin: 100px 0;
+}
+.instra-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.instra-img img{
+    width: 235px;
+    height: auto;
+}
