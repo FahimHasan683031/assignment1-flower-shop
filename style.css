@@ -125,3 +125,40 @@ body{
     text-align: center;
 }
 /* feture section css end */
+
+/* call to action css start */
+.calto-action{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px 0;
+    border-radius: 5px;
+}
+.action-box{
+    text-align: center;
+}
+/* call to action css end */
+
+/* offer section css start */
+
+.offer-section{
+    margin: 100px 0;
+}
+.offer-left{
+    text-align: center;
+}
+.offer-body{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.offer-right img{
+    width: 200px;
+    height: auto;
+}
+.offer-left>h1>span{
+    color: #E55473;
+}
+/* offer section css end */
