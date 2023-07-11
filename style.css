@@ -4,8 +4,8 @@
 }
 
 .container{
-    max-width: 1050px;
-    margin: auto;
+    max-width: 1000px;
+    margin:0 auto !important;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -20,6 +20,19 @@ body{
     color: #fff;
 
 }
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.section-des{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    line-height: 22px;
+}
 
 /* banner css start */
 .banner{
@@ -30,7 +43,7 @@ body{
 }
 .banner-body {
     display: flex;
-    height: 450px;
+    height: 470px;
     align-items: center !important ;
     justify-content: space-between;
 }
@@ -39,19 +52,76 @@ body{
 }
 .baner-right h1{
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 900;
     color: #272727;
 }
 .baner-right p{
-    font-size: 15px;
-    font-weight: 300;
-    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(121, 121, 121);
     line-height: 30px;
     margin-bottom: 10px;
 }
 
 .baner-left img{
-    width: 300px;
+    width: 350px;
     height: auto;
-    margin-bottom: -78px;
+    margin-bottom: -30px;
 }
+
+/* banner css end */
+.feture-section{
+    margin: 100px 0 50px 0;
+}
+.feute-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.img-box1, .img-box2, .img-box3{
+    width: 310px;
+    height: 380px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 250px 250px 0 0;
+    position: relative;
+    margin-top: 0;
+}
+.img-box2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-box3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.img-box1>img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+
+}
+.img-box2>img {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+}
+.img-box3>img {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    left: 55px;
+    bottom: 0;
+}
+.fiture-link{
+    text-align: center;
+    color:black;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.product{
+    text-align: center;
+}
+/* feture section css end */
