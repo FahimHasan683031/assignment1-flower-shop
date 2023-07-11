@@ -1,6 +1,8 @@
 *{
     padding: 0;
-    margin-right: 0;
+    margin: 0;
+
+
 }
 
 .container{
@@ -32,6 +34,7 @@ body{
     font-weight: 400;
     color: rgb(94, 94, 94);
     line-height: 22px;
+    margin: 15px 0;
 }
 
 /* banner css start */
@@ -56,11 +59,12 @@ body{
     color: #272727;
 }
 .baner-right p{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: rgb(121, 121, 121);
     line-height: 30px;
     margin-bottom: 10px;
+    margin: 15px 0;
 }
 
 .baner-left img{
@@ -175,4 +179,49 @@ body{
 .instra-img img{
     width: 235px;
     height: auto;
+}
+
+/* subscribe section css */
+
+.subsceibe{
+    text-align: center;
+}
+.subsceibe input{
+    padding: 11px ;
+    border:none ;
+    width: 420px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.form-section{
+    padding: 70px 0;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+
+/* footer css */
+
+footer{
+    text-align: center;
+    background: #111010;
+    padding: 65px 0;
+    margin-top: 100px;
+    margin-left: px;
+}
+footer h1{
+    color: #E55473 !important;
+}
+footer h1 span{
+    color: #fff;
+}
+footer h5{
+    color: #fff !important;
+}
+
+footer p{
+    color: #dddd;
+    font-size: 12px;
+    margin-top: 10px;
 }
